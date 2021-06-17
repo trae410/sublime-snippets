@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[import React, { useContext, useState, useEffect, useRef } from 'react'
+  const ${1:${TM_FILENAME/.js//}} = ({}) => {
+
+    return (
+      $0
+    )
+  }
+
+  export default ${1:$TM_FILENAME}
+]]>
+  </content>
+  <tabTrigger>importReact</tabTrigger>
+  <scope>source.js</scope>
+  <description>Basic Component</description>
+</snippet>

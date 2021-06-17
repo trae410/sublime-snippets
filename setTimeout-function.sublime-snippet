@@ -1,0 +1,11 @@
+<!-- currently overwriting the default sublime Javascript setting snippet found in PackageResourceViewer:javascript ... -->
+<snippet>
+	<content><![CDATA[setTimeout(() => {
+		${1:}
+	}, ${2:3000})
+]]></content>
+
+	<tabTrigger>setTimeout custom</tabTrigger>
+	<scope>source.js</scope>
+	<description>setTimeout custom function</description>
+</snippet>
